@@ -1,0 +1,115 @@
+p{
+    color:darkblue;
+    /*background:darkgoldenrod;*/
+    /*font-family: monospace;*/
+    text-align: justify;
+    /*line-height: 15px;/*tamanho da altura de cada linha*/
+    /*letter-spacing: 2px;/*espaçamento entre letras*/
+    word-spacing: 3px;/*espaçamento entre palavras*/
+    text-indent: 30px;/*tamanho da margem da 1ª linha*/
+    
+}
+
+body{
+    background-color: darkcyan;
+    /*font-family: "Monospace", "Helvetica", sans-serif;/*o navegado verifica se a fonte arial está disponível se não estiver aplica a helvetica, será em castata*/
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    /*border: 1px solid red;*/
+}
+
+h2,
+h1{
+    font-family: serif;
+    font-style: oblique;
+}
+
+h1{
+    background-image: url(../img/sobre-background.jpg);
+    padding: 15px;
+    width: 300px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2{
+    border-bottom: 2px solid #333333;
+    padding-left: 15px;
+}
+
+figure{
+    background-color: #f2eded;
+    border: 2px solid rgb(24, 23, 23);
+    text-align: center;
+    /*margin: 20px;*/
+    /*padding: 8px;*/
+    padding-top: 10px;
+}
+
+figcaption{
+    font-style: italic;
+}
+
+.familia-pelho{
+float: right;
+text-align: center;
+padding-left: 10px;
+padding-right: 10px;
+margin: 32px 0 10px 10px;
+}
+
+.centro-distribuicao{
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    padding-top: 25px;
+}
+
+ul{
+    list-style-type: circle;
+}
+
+ol{
+    list-style-type: upper-alpha;
+    display: flex;
+    justify-content: space-around;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    color:yellow;
+}
+
+footer{
+    color: sienna;
+    margin: 10px 0;
+    padding-left: 1px;
+    
+}
+
+footer img{
+    /*margin-right: 20px;*/
+    margin-left: 30px;
+    vertical-align: middle;
+    width: 94px;
+    box-shadow: black 5px 5px 5px 5px;
+    filter: blur(1px);
+    
+}
+
+footer p{
+    filter: blur(1px);
+}
+
+
+
+
+
